@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+We could compare the old version with the new one.
+And we could then find out the bugs and change them accordingly.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+When we have access to the entire history of a file  we can restore a previous version any time and also feel more free to change 
+the current file knowing that mistakes made could be easily corrected.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+When we manually chhose to create a commit we avoid unneccesary and redundant commits while on the other hand we increase the risk of an error since we might forget to
+commit sooner.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately? 
+Saving multiple related files in one commit is highly useful because often changes are made to more than one file while making logical alteration and hence saving all the files in a particular commit makes sense.
+
+
+How can you use the commands git log and git diff to view the history of files?
+Git log can be used to view commit history where as git diff can be used to find differences in two versions of the same
+project.
+
+
+How might using version control make you more confident to make changes that could break something?
+Git allows us to restore previous versions and finds the changes made in version relative to another and thus making the process of bug hunting way easier.Hence now we can freely make changes and revert back if they dont work.
+
+How do you want to use git?
+Git could be used to store previous versions of a program and to compare different versions of the same project or program. We can also reveiw the history of existing projects. 
