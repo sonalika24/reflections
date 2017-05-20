@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Intialization is done by using the command git init which tranforms an ordinary directory to a git repository.It also adds an .git hidden file which contains metadata about all the files in the repository.
