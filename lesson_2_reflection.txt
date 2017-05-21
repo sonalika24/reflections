@@ -1,2 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
 Intialization is done by using the command git init which tranforms an ordinary directory to a git repository.It also adds an .git hidden file which contains metadata about all the files in the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area contains files which can be committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can use the command git dif --staged to compare the staging area with the most recent commit.The differences will be shown from which we can find out if there is only one logical change or more.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful when we want to try out an experimental feature without compromising on the master branch which can then remain intact.
+
+How do the diagrams help you visualize the branch structure?
+These diagrams heps to understand what are the different branches available .
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging is used to combine features of two seperate versions which represent two logical changes, mostly done by two programmers.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Gits automatic merging avoids absurd code snippets which could not have been compiled otherwise.
